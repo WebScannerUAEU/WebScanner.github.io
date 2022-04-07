@@ -129,3 +129,22 @@ section {
     opacity:0.9;
     background: rgb(241, 233, 218) url('../img/loading.gif') center center no-repeat;
 }
+
+#tutorial-bt {
+    margin-top: 3px;
+    margin-left: .5rem;
+    /* margin-left: 10px; */
+    color: black;
+    font-weight: bolder;
+    background-color: #BEFBFF;
+    width: 100px;
+    height: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#tutorial-bt:hover{
+    background-color: #570563;
+    color: white;
+}
