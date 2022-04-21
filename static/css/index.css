@@ -137,17 +137,14 @@ section {
     color: black;
     font-weight: bolder;
     background-color: #BEFBFF;
-    width: 200px;
+    width: 100px;
     height: 40px;
     text-transform: uppercase;
     cursor: pointer;
     border-radius: 15px;
-    padding: 10px;
-    text-decoration: none;
 }
 
  #tutorial-bt:hover{
-    background-color: #c362d2;
+    background-color: #570563;
     color: white;
-    text-decoration: none;
 }

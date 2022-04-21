@@ -15,11 +15,9 @@
   </head>
   <body>
     <nav>
-      <div id="tutorial-bt">
-        <a href="../templates/sqlitut.html" >SQLi Tutorial</a>
-      </div>
-      <div id="tutorial-bt">
-        <a href="#" >XSS Tutorial</a>
+      <div class="submit">
+        <button onclick="window.open('../templates/sqlitut.html', '_blank')" id="tutorial-bt">SQLi Tutorial</button>
+        <button onclick="window.open('#', '_blank')" id="tutorial-bt">XSS Tutorial</button>
       </div>
     </nav>
     <section>
