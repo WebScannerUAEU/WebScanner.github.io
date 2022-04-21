@@ -20,17 +20,6 @@ from worker import conn
 
 q = Queue(connection=conn)
 
-@main.route("/sqlitut", method=["GET"])
-@no_login_required
-def sqlitut():
-
-    return render_template("sqlitut.html")
-
-@main.route("/xsstut", method=["GET"])
-@no_login_required
-def xsstut():
-
-    return render_template("xsstut.html")
 
 @main.route("/", methods=["GET"])
 @no_login_required
