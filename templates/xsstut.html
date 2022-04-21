@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/sqliTut.css">
+    <title>SQLi Tutorial</title>
+</head>
+<body>
+    <div id="header">
+        <div id="header-inner">
+            <div class="header-title"> XSS Tutorial </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="column">
+            <div class="row">
+                <h1>What is XSS?</h1>
+                <p>A cross-Site Scripting attack is a malicious code injection, which will be executed in the victim’s browser. The malicious script can be saved on the webserver and executed every time when the user calls the appropriate functionality. It can also be performed with the other methods – without any saved script in the webserver. </p>
+
+            </div>
+            <div class="row">
+                <h1>How is XSS Being Performed?</h1>
+                <p>This attack can be performed in different ways. Depending upon the type of XSS attack, the malicious script may be reflected on the victim’s browser or stored in the database and executed every time, when the user calls the appropriate function.</p>
+                <img src="../static/img/xss.png">
+            </div>
+            <div class="row">
+                <h1>How we can detect XSS?</h1>
+                <p>Cross-site scripting or XSS is a specially crafted URL that includes attack code that will cause information that a user enters into their web browser to be sent to the attacker. In an identity theft based attack, an attacker will find a web server that is vulnerable to XSS and send a legitimate looking URL with XSS attack code appended to the end of the URL.  The malicious URL is often sent in a phishing email message.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
