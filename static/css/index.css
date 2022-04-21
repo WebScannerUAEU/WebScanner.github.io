@@ -130,21 +130,24 @@ section {
     background: rgb(241, 233, 218) url('../img/loading.gif') center center no-repeat;
 }
 
-#tutorial-bt {
+#tutorial-bt{
     margin-top: 3px;
     margin-left: .5rem;
     /* margin-left: 10px; */
     color: black;
     font-weight: bolder;
     background-color: #BEFBFF;
-    width: 100px;
+    width: 200px;
     height: 40px;
     text-transform: uppercase;
     cursor: pointer;
     border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
 }
 
-#tutorial-bt:hover{
-    background-color: #570563;
+ #tutorial-bt:hover{
+    background-color: #c362d2;
     color: white;
+    text-decoration: none;
 }
