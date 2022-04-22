@@ -148,3 +148,34 @@ section {
     background-color: #570563;
     color: white;
 }
+
+.btn_1{
+    border-radius: 7px;
+    border: 0.5px solid #570563;
+    background-color: #57056381;
+    color: black;
+    width: 5rem;
+    text-decoration: none;
+    margin-right: 5rem;
+    height: 1.4rem;
+    }
+    
+    .btn_2{
+    border-radius: 7px;
+    border: 0.5px solid #570563;
+    background-color: #57056381;
+    color: black;
+    width: 5rem;
+    text-decoration: none;
+    margin-left: 5rem;
+    height: 1.4rem;
+    }
+    
+    .flex_con{
+     
+       display: flex;
+       justify-content: space-between;
+       /* max-width: 20rem; */
+       align-items: center;
+       margin: 1rem auto 1rem auto;
+    }
