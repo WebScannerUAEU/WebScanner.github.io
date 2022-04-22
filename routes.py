@@ -28,6 +28,19 @@ def home():
     return render_template("index.html")
 
 
+@main.route("/sqlitut", methods=["GET"])
+@no_login_required
+def sqlitut():
+
+    return render_template("sqlitut.html")
+
+
+@main.route("/xsstut", methods=["GET"])
+@no_login_required
+def xsstut():
+
+    return render_template("xsstut.html")
+
 # endpoint for login system
 @main.route("/login")
 @no_login_required
